@@ -21,3 +21,5 @@ const logos = [
 export default function LogoTicker() {
     return <div>Logo Ticker</div>;
 }
+
+// 1:01:34
