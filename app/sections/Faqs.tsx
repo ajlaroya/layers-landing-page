@@ -24,3 +24,4 @@ const faqs = [
 export default function Faqs() {
     return <div>Faqs</div>;
 }
+// 4:54
