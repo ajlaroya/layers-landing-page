@@ -22,7 +22,7 @@ const logos = [
 export default function LogoTicker() {
   return (
     <section className="overflow-x-clip py-24">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-8">
         <h3 className="text-center text-xl text-white/50">
           Already chosen by these market leaders
         </h3>

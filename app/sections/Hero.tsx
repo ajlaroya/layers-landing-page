@@ -4,10 +4,12 @@ import designExample2Image from "@public/design-example-2.png";
 import Image from "next/image";
 import Pointer from "../components/Pointer";
 
+// 48:29
+
 export default function Hero() {
   return (
     <section className="overflow-x-clip py-24">
-      <div className="relative container mx-auto">
+      <div className="relative container mx-auto px-8">
         <div className="absolute top-16 -left-32 hidden xl:block">
           <Image src={designExample1Image} alt="Design example 1" />
         </div>
@@ -37,7 +39,7 @@ export default function Hero() {
           <input
             type="email"
             placeholder="Enter your email"
-            className="bg-transparent px-4 md:flex-1 w-full"
+            className="w-full bg-transparent px-4 md:flex-1"
           />
           <Button
             type="submit"
