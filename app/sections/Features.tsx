@@ -17,10 +17,12 @@ const features = [
   "Smart Guides",
 ];
 
+// 1:24:39
+
 export default function Features() {
   return (
     <section className="py-24">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-8">
         <div className="flex justify-center">
           <Tag>Features</Tag>
         </div>
