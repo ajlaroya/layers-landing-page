@@ -39,7 +39,7 @@ export type IntegrationsType = typeof integrations;
 export default function Integrations() {
   return (
     <section className="overflow-hidden py-24">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-8">
         <div className="grid items-center lg:grid-cols-2 lg:gap-16">
           <div>
             <Tag>Integrations</Tag>
@@ -55,6 +55,7 @@ export default function Integrations() {
             <IntegrationsColumn integrations={integrations} />
             <IntegrationsColumn
               integrations={integrations.slice().reverse()}
+              reverse
               className="hidden md:flex"
             />
           </div>

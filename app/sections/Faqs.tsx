@@ -29,12 +29,14 @@ const faqs = [
   },
 ];
 
+// 1:48:21
+
 export default function Faqs() {
   const selectedIndex = 0;
 
   return (
     <section className="py-24">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-8">
         <div className="flex justify-center">
           <Tag>Faqs</Tag>
         </div>
