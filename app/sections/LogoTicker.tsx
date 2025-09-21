@@ -30,7 +30,7 @@ export default function LogoTicker() {
         <h3 className="text-center text-xl text-white/50">
           Already chosen by these market leaders
         </h3>
-        <div className="mt-12 flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
+        <div className="mt-12 flex cursor-crosshair overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)]">
           <motion.div
             animate={{
               x: "-50%",

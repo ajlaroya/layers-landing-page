@@ -44,12 +44,12 @@ export default function Features() {
               <Avatar className="z-20 -ml-6 border-lime-500">
                 <Image src={avatar3} alt="Avatar 3" className="rounded-full" />
               </Avatar>
-              <Avatar className="-ml-6 border-transparent transition group-hover:border-yellow-500">
+              <Avatar className="-ml-6 border-transparent transition duration-500 group-hover:border-yellow-500">
                 <div className="relative inline-flex size-full items-center justify-center gap-1 rounded-full bg-neutral-700">
                   <Image
                     src={avatar4}
                     alt="Avatar 4"
-                    className="absolute size-full rounded-full opacity-0 transition group-hover:opacity-100"
+                    className="absolute size-full rounded-full opacity-0 transition duration-500 group-hover:opacity-100"
                   />
                   {Array.from({ length: 3 }).map((_, index) => (
                     <span
@@ -106,7 +106,7 @@ export default function Features() {
           {features.map((feature) => (
             <div
               key={feature}
-              className="group inline-flex items-center gap-3 rounded-2xl border border-white/10 bg-neutral-900 px-3 py-1.5 transition duration-500 hover:scale-105 md:px-5 md:py-2"
+              className="group inline-flex cursor-crosshair items-center gap-3 rounded-2xl border border-white/10 bg-neutral-900 px-3 py-1.5 transition duration-500 hover:scale-105 md:px-5 md:py-2"
             >
               <span className="inline-flex size-5 items-center justify-center rounded-full bg-lime-400 text-xl text-neutral-950 transition duration-500 group-hover:rotate-45">
                 &#10038;

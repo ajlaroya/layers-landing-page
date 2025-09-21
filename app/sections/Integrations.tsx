@@ -42,7 +42,9 @@ export default function Integrations() {
       <div className="container mx-auto px-8">
         <div className="grid items-center lg:grid-cols-2 lg:gap-16">
           <div>
-            <Tag>Integrations</Tag>
+            <div className="md:flex md:justify-center">
+              <Tag>Integrations</Tag>
+            </div>
             <h2 className="mt-6 text-6xl font-medium">
               Plays well with <span className="text-lime-400">others</span>
             </h2>

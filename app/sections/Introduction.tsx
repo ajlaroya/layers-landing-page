@@ -37,7 +37,7 @@ export default function Introduction() {
                 <span
                   key={wordIndex}
                   className={twMerge(
-                    "text-white/15 transition duration-500",
+                    "cursor-wait text-white/15 transition duration-500",
                     wordIndex < currentWord && "text-white",
                   )}
                 >{`${word} `}</span>

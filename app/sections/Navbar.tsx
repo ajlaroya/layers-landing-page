@@ -26,7 +26,7 @@ export default function Navbar() {
                 <Image
                   src="/assets/images/logo.svg"
                   alt="Layers logo"
-                  className="h-9 w-auto md:h-auto"
+                  className="h-9 w-auto cursor-pointer md:h-auto"
                   width={100}
                   height={100}
                 />

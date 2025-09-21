@@ -116,7 +116,7 @@ export default function Hero() {
           <input
             type="email"
             placeholder="Enter your email"
-            className="w-full bg-transparent px-4 md:flex-1"
+            className="w-full bg-transparent px-4 focus:outline-none md:flex-1"
           />
           <Button
             type="submit"

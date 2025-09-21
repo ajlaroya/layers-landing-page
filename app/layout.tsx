@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Layers",
-    description: "Created with the help of Frontend Tribe",
+  title: "Layers",
+  description: "Created with the help of Frontend Tribe",
+  icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
@@ -25,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-neutral-950 text-white`}
+        className={`${geistSans.variable} ${geistMono.variable} scroll-smooth bg-neutral-950 text-white antialiased`}
       >
         {children}
       </body>

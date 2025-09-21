@@ -50,7 +50,7 @@ export default function Faqs() {
           {faqs.map((faq, faqIndex) => (
             <div
               key={faqIndex}
-              className="rounded-2xl border-white/10 bg-neutral-900 p-6"
+              className="cursor-pointer rounded-2xl border-white/10 bg-neutral-900 p-6"
             >
               <div
                 className="flex items-center justify-between"

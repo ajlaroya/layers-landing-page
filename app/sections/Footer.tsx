@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <section className="py-16">
       <footer className="container mx-auto">
-        <div className="flex flex-col items-center gap-6 md:flex-row md:justify-between">
+        <div className="flex cursor-pointer flex-col items-center gap-6 md:flex-row md:justify-between">
           <div>
             <Image src={logoImage} alt="Layers logo" />
           </div>

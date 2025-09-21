@@ -14,7 +14,7 @@ const FeatureCard = (props: Props) => {
   return (
     <div
       className={twMerge(
-        "rounded-3xl border border-white/10 bg-neutral-900 p-6",
+        "cursor-pointer rounded-3xl border border-white/10 bg-neutral-900 p-6",
         className,
       )}
     >

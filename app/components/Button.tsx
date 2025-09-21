@@ -2,7 +2,7 @@ import { cva } from "class-variance-authority";
 import { ButtonHTMLAttributes } from "react";
 
 const classes = cva(
-  "border h-12 rounded-full px-6 font-medium hidden md:inline-flex items-center",
+  "border h-12 rounded-full px-6 font-medium hidden md:inline-flex items-center cursor-pointer",
   {
     variants: {
       variant: {
